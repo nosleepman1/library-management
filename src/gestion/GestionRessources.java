@@ -35,7 +35,9 @@ public class GestionRessources {
         if (categorie == null || categorie.isBlank()) {
             return new ArrayList<>();
         }
+
         String recherche = categorie.trim();
+    
         return ressources.values().stream()
                 .filter(r -> r.getCategorie().equalsIgnoreCase(recherche))
                 .collect(Collectors.toList());
