@@ -1,7 +1,10 @@
 package model;
 
 public abstract class Ressource {
+<<<<<<< HEAD
     
+=======
+>>>>>>> 79b908d2256dc0a73b708f1786ffb3bf56149704
     private String reference;
     private String titre;
     private double prix;
